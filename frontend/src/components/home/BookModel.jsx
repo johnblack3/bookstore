@@ -11,7 +11,7 @@ const BookModel = ({ book, onClose }) => {
     >
       <div
         onClick={(event) => event.stopPropagation()}
-        className='w-[600px] max-w-full h-[400px] bg-white rounded-xl p-4 flex flex-col relative'
+        className='w-[600px] max-w-full bg-white rounded-xl p-4 flex flex-col relative'
       >
         <AiOutlineClose
           className='absolute right-6 top-6 text-3xl text-red-600 cursor-pointer'
@@ -29,14 +29,12 @@ const BookModel = ({ book, onClose }) => {
           <BiUserCircle className='text-red-300 text-2xl' />
           <h2 className='my-1'>{book.author}</h2>
         </div>
-        <p className='mt-4'>Anything You want to show</p>
+        <p className='mt-4'>Description:</p>
         <p className='my-2'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quia
           voluptatum sint. Nisi impedit libero eveniet cum vitae qui expedita
           necessitatibus assumenda laboriosam, facilis iste cumque a pariatur
-          nesciunt cupiditate voluptas? Quis atque earum voluptate dolor nisi
-          dolorum est? Deserunt placeat cumque quo dicta architecto, dolore
-          vitae voluptate sequi repellat!
+          nesciunt cupiditate voluptas?
         </p>
       </div>
     </div>

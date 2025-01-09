@@ -51,9 +51,9 @@ const EditBook = () => {
   }
 
   return (
-    <div>
+    <div className='p-4'>
       <BackButton />
-      <h1 className='text-3x1 my-4'>Edit Book</h1>
+      <h1 className='text-3xl my-4'>Edit Book</h1>
       {loading ? <Spinner /> : ''}
       <div className='flex flex-col border-2 border-sky-400 rounded-0x1 w-[600px] p-4 mx-auto'>
         <div className='my-4'>
